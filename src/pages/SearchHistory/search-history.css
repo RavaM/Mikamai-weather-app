@@ -1,0 +1,14 @@
+.searches-history {
+  padding: 20px;
+  max-width: 1366px;
+  margin: 0 auto;
+}
+
+h1 {
+  margin-bottom: 20px;
+}
+
+.searches-history-list {
+  display: flex;
+  flex-direction: column;
+}

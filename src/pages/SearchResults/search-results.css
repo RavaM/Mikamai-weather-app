@@ -1,0 +1,61 @@
+.carousel-container {
+  height: calc(100% - var(--header-height));
+}
+
+.carousel-root {
+  height: 100%;
+}
+
+.carousel {
+  height: 100%;
+}
+
+.slider {
+  height: 100%;
+}
+
+.slider-wrapper {
+  height: 100%
+}
+
+div.weather-card__container {
+  height: 100%;
+}
+
+.carousel.carousel-slider .control-arrow {
+  background-color: rgba(0, 0, 0, 0.4);
+  top: 50%;
+  transform: translateY(-50%);
+  width: 40px;
+  height: 40px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  border-radius: 50%;
+}
+
+.carousel.carousel-slider .control-arrow.control-prev {
+  left: 15px;
+}
+
+.carousel.carousel-slider .control-arrow.control-next {
+  right: 15px;
+}
+
+.carousel.carousel-slider .control-arrow.control-next:before {
+  position: relative;
+  left: 2px;
+}
+
+.carousel.carousel-slider .control-arrow.control-prev:before {
+  position: relative;
+  right: 2px
+}
+
+.carousel-status {
+  display: none;
+}
+
+.control-dots {
+  display: none;
+}
